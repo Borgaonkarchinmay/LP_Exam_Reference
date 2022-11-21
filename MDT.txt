@@ -1,0 +1,10 @@
+1 MOVER (p,4) (p,1)
+2 ADD (p,4) ='1'
+3 MOVER (p,3) (p,2)
+4 ADD (p,4) ='5'
+5 MEND
+6 MOVER (p,3) (p,1)
+7 MOVER (p,4) (p,2)
+8 ADD (p,3) ='15'
+9 ADD (p,4) ='10'
+10 MEND
