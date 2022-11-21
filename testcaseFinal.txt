@@ -1,0 +1,24 @@
+start 200
+mover areg ='5'
+movem areg a
+loop mover areg a
+mover creg b
+add creg ='1'
+mover areg a
+mover creg b
+mover areg a
+mover creg b
+mover areg a
+bc any next
+ltorg
+mover areg a
+next sub areg ='1'
+bc lt back
+last stop
+origin loop+2
+mult creg b
+origin last+1
+a ds 1
+back equ loop
+b ds 1
+end

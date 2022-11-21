@@ -1,0 +1,6 @@
+a 217
+loop 202
+b 218
+next 214
+back 202
+last 216
